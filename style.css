@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+header > nav{
+    padding: 20px;
+    background-color: cadetblue;
+    font-size: 50px;
+
+}
+header nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin: 100px 5px;
+    background-color: rgba(240, 224, 10, 0.733);
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+p {
+    color:rgb(165, 13, 13);
+    font-size:40px;
+    font-style:inherit;
+    font-stretch:expanded;
+    font-weight:100;
+}
+#kep {
+    width:100%;
+    border: blue 1px solid;
+}
+#gomb{
+    background-color: red;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: blue 20px;
+    cursor:pointer;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color:red;
+    }
+
+}
